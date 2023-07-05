@@ -22,11 +22,11 @@ As we can see, although returns are slightly lower, the reduced voltatility mean
 
 I aim to improve on this strategy in three ways:
 
-1 - Use optimization to calculate appropriate levels of leverage
+* Use optimization to calculate appropriate levels of leverage
 
-2 - Create an input system that will factor in the users personal situations (as noted in the blog) e.g. working in tech --> reduce exposure to tech, own a property --> reduce exposure in property
+* Create an input system that will factor in the users personal situations (as noted in the blog) e.g. working in tech --> reduce exposure to tech, own a property --> reduce exposure in property
 
-3 - Replicate the overall approach to individual assets (e.g. US equities will only represent their portion of the overall equity market)
+* Replicate the overall approach to individual assets (e.g. US equities will only represent their portion of the overall equity market)
 
 Other than these modifications, I will simply be trying to implement the strategy using Python.
 
