@@ -11,12 +11,24 @@ Whilst I have designed other smaller algorithms whilst following the Udemy cours
 
 My investment beliefs lie in low-risk long-only holding strategies. I believe most people do not have the skills, time or mental capacity to beat the market on a consistent basis with public investing, and should instead invest in index funds over a long time period utilising DCA. I have full faith in people being able to beat a market, but only if they commit a significant amount of time or resources (of which most working class people do not have) OR have exclusive market knowledge. In this regard, I believe trying to beat the market should be left to professional investors / traders / financial engineers. Generally, this results in average returns of somewhere between 5-10% annually (S&P500), which is still quite impressive, but not enough to make you a millionaire over a short time frame. After reading [this](https://80000hours.org/2015/10/common-investing-mistakes-in-the-effective-altruism-community/) post by Benjamin Todd (founder of 80,000 hours), I was inspired to try something different.
 
-His strategy is an altered version of the classic 'S&P500 until you retire' strategy. It essentially copies the overall market portfolio, resulting in incredibly low volatility returns. It makes sense from a macro view - technically as long as global GDP improves (which it has been for the last millenia), returns will be positive. This reduced risk makes leverage much more appealing, allowing decent household returns of around 10-15%. Some figures from the blog:
+His strategy is an altered version of the classic 'S&P500 until you retire' strategy. It essentially copies the global market portfolio (GMP for future reference), resulting in incredibly low volatility returns. It makes sense from a macro view - technically as long as global GDP improves (which it has been for the last millenia), returns will be positive. This reduced risk makes leverage much more appealing, allowing decent household returns of around 10-15%. Some figures from the blog:
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+Strategy | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+S&P500 | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+GMP | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+As we can see, although returns are slightly lower, the reduced voltatility means using a 2x leverage would result in significantly higher returns. 
+
+I aim to improve on this strategy in three ways:
+
+1 - Use optimization to calculate appropriate levels of leverage
+
+2 - Create an input system that will factor in the users personal situations (as noted in the blog) e.g. working in tech --> reduce exposure to tech, own a property --> reduce exposure in property
+
+3 - Replicate the overall approach to individual assets (e.g. US equities will only represent their portion of the overall equity market)
+
+Other than these modifications, I will simply be trying to implement the strategy using Python.
 
 ## Strategy Execution
 
