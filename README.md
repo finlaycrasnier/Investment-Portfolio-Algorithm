@@ -28,6 +28,8 @@ I aim to modify the strategy as follows:
 
 * Replicate the overall approach to individual assets e.g. US tech equities will only represent their portion of the overall equity market
 
+* Utilise equity valuations (such as P/E ratios) to choose appropriate stocks
+
 Other than these modifications, I will simply be trying to implement the strategy using Python.
 
 ## Strategy Execution
