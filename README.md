@@ -13,7 +13,7 @@ My investment beliefs lie in low-risk long-only holding strategies. I believe mo
 
 His strategy is an altered version of the classic 'S&P500 until you retire' strategy. It essentially copies the global market portfolio (GMP for future reference), resulting in incredibly low volatility returns. It makes sense from a macro view - technically as long as global GDP improves (which it has been for the last millenia), returns will be positive. This reduced risk makes leverage much more appealing, allowing decent household returns of around 10-15%. Some figures from the blog (between 1973 and 2013):
 
-Strategy | #Returns | #Volatility | #Max Drawdown
+Strategy | Returns | Volatility | Max Drawdown
 --- | --- | --- | --- 
 S&P500 | 9.9% | 15.6% | -51% 
 GMP | 10.2% | 8% | 290 | -27%
