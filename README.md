@@ -16,7 +16,7 @@ His strategy is an altered version of the classic 'S&P500 until you retire' stra
 Strategy | Returns | Volatility | Max Drawdown
 --- | --- | --- | --- 
 S&P500 | 9.9% | 15.6% | -51% 
-GMP | 10.2% | 8% | 290 | -27%
+GMP | 10.2% | 8% | -27% 
 
 As we can see, although returns are slightly lower, the reduced voltatility means using a 2x leverage would result in significantly higher returns. Of course, 2013 was a long time ago and a lot has changed in the economic landscape. I will find out how much the strategy has been affected by the time the algorithm is finished, but I suspect the GMP will have performed significantly worse considering the equity boom around 2020/2021.
 
