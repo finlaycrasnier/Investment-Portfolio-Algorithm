@@ -1,7 +1,7 @@
 # Investment-Portfolio-Algorithm
 An investment portfolio algorithm that combines my personal investment philosophy and skills learned from completing the Udemy course "Algorithmic Stock Trading and Equity Investing with Python".
 
-*This is not to be used as investment advice - this is simply a written piece to gather my own thoughts and practice some skills*
+*This is not to be used as investment advice - this is simply a written piece to gather my own thoughts and have fun practicing some skills*
 
 ## Introduction
 
