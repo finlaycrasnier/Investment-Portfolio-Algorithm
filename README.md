@@ -32,12 +32,8 @@ Other than these modifications, I will simply be trying to implement the strateg
 
 ## Strategy Execution
 
-- No fundamental influencers are included; a stock may rapidly rise because of overwhelmingly positive financial reports or media coverage. These stocks may not revert to their average value.
-- No purchase variance between the most significant outlier stocks VS standard outlier stocks
-- Overall market picture is not viewed / lack of safety net; index could be rapidly growing and we will continue to short stocks
+
 
 ## Conclusion
 
-- No fundamental influencers are included; a stock may rapidly rise because of overwhelmingly positive financial reports or media coverage. These stocks may not revert to their average value.
-- No purchase variance between the most significant outlier stocks VS standard outlier stocks
-- Overall market picture is not viewed / lack of safety net; index could be rapidly growing and we will continue to short stocks
+
