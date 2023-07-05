@@ -20,13 +20,13 @@ GMP | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 As we can see, although returns are slightly lower, the reduced voltatility means using a 2x leverage would result in significantly higher returns. Of course, 2013 was a long time ago and a lot has changed in the economic landscape. I will find out how much the strategy has been affected by the time the algorithm is finished, but I suspect the GMP will have performed significantly worse considering the equity boom around 2020/2021.
 
-I aim to improve on this strategy in three ways:
+I aim to modify the strategy as follows:
 
 * Use optimization to calculate appropriate levels of leverage
 
 * Create an input system that will factor in the users personal situations (as noted in the blog) e.g. working in tech --> reduce exposure to tech, own a property --> reduce exposure in property
 
-* Replicate the overall approach to individual assets (e.g. US equities will only represent their portion of the overall equity market)
+* Replicate the overall approach to individual assets e.g. US tech equities will only represent their portion of the overall equity market
 
 Other than these modifications, I will simply be trying to implement the strategy using Python.
 
