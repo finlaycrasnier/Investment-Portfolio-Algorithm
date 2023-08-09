@@ -44,7 +44,9 @@ Another slight problem was the availbility of data from yfinance. Some of the ET
 
 ### Trader
 
-The only short setback I had was the rebalancing. I initially complete forgot about it, and hence, had to amend the code once finished. One thing I would like to improve (technically this is also related to the backtester) is the GMP weighting. Currently, they are pulled as flat figures. I would like to find a resource that continually measures (or at least approximates) the weighting of the GMP, so I can directly link it once and for all.
+The primary concern with the trader was getting IKBR to work. For some reason, my login credentials were not synced between the online and desktop trader, preventing me from utilising it for a while. For this reason, I was unable to test the code, but instead relied on forums and Chat GPT to confirm if it does. Albheit, not a great solution, but much easier than going through the headache of trying to contact customer services (sarcasm). In the end, I ended up trying a demo account with extremely limited ticker options. 
+
+Other than that, the only short setback I had was the rebalancing. I initially complete forgot about it, and hence, had to amend the code once finished. One thing I would like to improve (technically this is also related to the backtester) is the GMP weighting. Currently, they are pulled as flat figures. I would like to find a resource that continually measures (or at least approximates) the weighting of the GMP, so I can directly link it once and for all.
 
 ## Conclusion
 
