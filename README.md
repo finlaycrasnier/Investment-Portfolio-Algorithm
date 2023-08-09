@@ -42,5 +42,5 @@ One major challenge I encountered was correctly documenting the programming. I s
 
 Strategy | Returns | Volatility | Sharpe | Max Drawdown
 --- | --- | --- | --- | ---
-S&P500 | 9.6% | 18% | 0.334 | -0.339
-GMP | 4% | 8% | 0.0726 | -0.224
+S&P500 | 9.6% | 18% | 0.334 | -33%
+GMP | 4% | 8% | 0.0726 | -22%
