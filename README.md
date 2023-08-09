@@ -30,12 +30,17 @@ I aim to modify the strategy as follows:
 
 * Utilise equity valuations (such as P/E ratios) to choose appropriate stocks
 
-Other than these modifications, I will simply be trying to implement the strategy using Python.
+Other than these modifications, I will simply be trying to implement and backtest the strategy using Python.
 
 ## Strategy Execution
 
+I started with the backtester. I thought it would be the most interesting, and I was also having problems connecting to IKBR, making trading impossible. I came across a few programming / calculation errors, notably calculating the portfolio variance, but after re-visint the course and reading more online, I was able to fix these fairly quickly. 
 
+One major challenge I encountered was correctly documenting the programming. I struggled envisioning it from a spectator point of view, and therefore appropriately commenting / documenting when relevent, and naming variable in a concise, yet easy to understand manor. Whilst this does not affect performance, I found that it is something that I definetly should be improving, especially when working in a team environment. 
 
 ## Conclusion
 
-
+Strategy | Returns | Volatility | Sharpe | Max Drawdown
+--- | --- | --- | --- 
+S&P500 | 0.096112 | 0.182933 | 0.334067 | -0.339250
+GMP | 0.040950 | 0.081971 | 0.072584 | -0.224282
