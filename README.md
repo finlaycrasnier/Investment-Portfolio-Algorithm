@@ -42,13 +42,19 @@ One major challenge I encountered was correctly documenting the programming. I s
 
 Another slight problem was the availbility of data from yfinance. Some of the ETFs used in the portfolio were fairly new, and therefore do not have a long pricing history. This meant to calculate accurate returns for the entire portfolio, I had to limit the backtesting to 9 years. Whilst this is unfortunate, as it doesn't truly represent a long-term horizon, it turned out to be happy accident. Seeing how the predictions in the initial blog post panned out, and how the pandemic and recession affected each portfolio was interesting to say the least. 
 
-## Trader
+### Trader
+
+The only short setback I had was the rebalancing. I initially complete forgot about it, and hence, had to amend the code once finished. One thing I would like to improve (technically this is also related to the backtester) is the GMP weighting. Currently, they are pulled as flat figures. I would like to find a resource that continually measures (or at least approximates) the weighting of the GMP, so I can directly link it once and for all.
 
 ## Conclusion
 
-When backtesting the portfolio over the last 9 years, I got the following results:
+When backtesting the portfolio with data from the last 9 years, I got the following results:
 
 Strategy | Returns | Volatility | Sharpe | Max Drawdown
 --- | --- | --- | --- | ---
 S&P500 | 9.6% | 18% | 0.334 | -33%
 GMP | 4% | 8% | 0.0726 | -22%
+
+Whilst the GMP still performed strongly, it isn't as appealing as initially thought, especially if utilising leverage. It barely outperformed UK inflation. Having said that, bond returns have been incredibly weak relative to stocks, which is probably not indicative of the future. Additionally, there have been huge swan events that could be attributed to the large gap between equities and other asset classes. 
+
+It will be interesting to see how the GMP shapes up with increasing focus on decentralised currencies. Perhaps as this market segment expands, returns will increase.
