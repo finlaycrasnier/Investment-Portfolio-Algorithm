@@ -38,11 +38,15 @@ I started with the backtester. I thought it would be the most interesting, and I
 
 ### Backtester
 
-One major challenge I encountered was correctly documenting the programming. I struggled envisioning it from a spectator point of view, and therefore appropriately commenting / documenting when relevent, and naming variable in a concise, yet easy to understand manor. Whilst this does not affect performance, I found that it is something that I definetly should be improving, especially when working in a team environment. 
+One major challenge I encountered was correctly documenting the programming. I struggled envisioning it from a spectator point of view, and therefore appropriately commenting / documenting when relevent, and naming variable in a concise, yet easy to understand manor. Whilst this does not affect performance, I found that it is something that I definetly should be improving, especially when working in a team environment. I'm hoping to follow more Udemy courses to get a feel for how 
+
+Another slight problem was the availbility of data from yfinance. Some of the ETFs used in the portfolio were fairly new, and therefore do not have a long pricing history. This meant to calculate accurate returns for the entire portfolio, I had to limit the backtesting to 9 years. Whilst this is unfortunate, as it doesn't truly represent a long-term horizon, it turned out to be happy accident. Seeing how the predictions in the initial blog post panned out, and how the pandemic and recession affected each portfolio was interesting to say the least. 
 
 ## Trader
 
 ## Conclusion
+
+When backtesting the portfolio over the last 9 years, I got the following results:
 
 Strategy | Returns | Volatility | Sharpe | Max Drawdown
 --- | --- | --- | --- | ---
